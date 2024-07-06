@@ -11,7 +11,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import ProductCard from "@/components/ProductCard";
 import { IProduct } from "@/types";
 import axios from "axios";
-import { API_KEY, APP_ID, ORGANIZATION_ID } from "@env";
 import CustomAlert from "@/components/CustomAlert";
 
 const products = () => {
@@ -24,12 +23,12 @@ const products = () => {
         setLoading(true);
         const res = await axios.get("https://api.timbu.cloud/products", {
           params: {
-            organization_id: ORGANIZATION_ID,
+            organization_id: process.env.EXPO_PUBLIC_ORGANIZATION_ID,
             reverse_sort: "false",
             page: 1,
             size: 12,
-            Appid: APP_ID,
-            Apikey: API_KEY,
+            Appid: process.env.EXPO_PUBLIC_APP_ID,
+            Apikey: process.env.EXPO_PUBLIC_API_KEY,
           },
         });
         setProducts(res.data.items);

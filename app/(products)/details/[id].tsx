@@ -29,12 +29,12 @@ const details = () => {
         setLoading(true);
         const res = await axios.get(`https://api.timbu.cloud/products/${id}`, {
           params: {
-            organization_id: ORGANIZATION_ID,
+            organization_id: process.env.EXPO_PUBLIC_ORGANIZATION_ID,
             reverse_sort: "false",
             page: 1,
-            size: 10,
-            Appid: APP_ID,
-            Apikey: API_KEY,
+            size: 12,
+            Appid: process.env.EXPO_PUBLIC_APP_ID,
+            Apikey: process.env.EXPO_PUBLIC_API_KEY,
           },
         });
         setProduct(res.data);
