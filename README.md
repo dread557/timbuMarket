@@ -1,8 +1,8 @@
-# Welcome to your Expo app 👋
+# Timbu market App (HNG i11 stage 2 task)
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## Setup Instructions
 
 1. Install dependencies
 
@@ -25,12 +25,12 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## App Information
 
-When you're ready, run:
+# Screeenshots
+![2024-07-07 05-34-56 High Res Screenshot](https://github.com/dread557/timbuMarket/assets/67234210/91788049-e131-4eab-b4c5-5511c42b5427)
+![2024-07-07 05-34-30 High Res Screenshot](https://github.com/dread557/timbuMarket/assets/67234210/c3471943-b515-4e87-b387-2f1ef17ed02c)
 
-```bash
-npm run reset-project
-```
+# Appetize demo link : https://appetize.io/app/android/com.dread557.timbuMarket
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Apk download link : https://drive.google.com/file/d/1qc7StsbjpaOrFh-57Hn_PpIbiuNb3iuL/view?usp=sharing
