@@ -31,6 +31,6 @@ You can start developing by editing the files inside the **app** directory. This
 ![2024-07-07 05-34-56 High Res Screenshot](https://github.com/dread557/timbuMarket/assets/67234210/91788049-e131-4eab-b4c5-5511c42b5427)
 ![2024-07-07 05-34-30 High Res Screenshot](https://github.com/dread557/timbuMarket/assets/67234210/c3471943-b515-4e87-b387-2f1ef17ed02c)
 
-# Appetize demo link : https://appetize.io/app/android/com.dread557.timbuMarket
+# Appetize demo link : https://appetize.io/app/b_hgmfqtsomkkiivfidqdbpi6byy
 
 # Apk download link : https://drive.google.com/file/d/1qc7StsbjpaOrFh-57Hn_PpIbiuNb3iuL/view?usp=sharing
